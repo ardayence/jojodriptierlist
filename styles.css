@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'SF Fedora';
+  font-weight: 400;
+  src: url('assets/fonts/sf_fedora_shadow-webfont.woff2') format('woff2');
+}
+
+#Jolyne {
+  color: #0e326f;
+}
+body {
+  background-image: url(./media/images/background.webp);
+  background-repeat: no-repeat;
+}
+h1 {
+  font-family: ;
+}
