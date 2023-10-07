@@ -2,15 +2,42 @@
   font-family: 'SF Fedora';
   font-weight: 400;
   src: url('assets/fonts/sf_fedora_shadow-webfont.woff2') format('woff2');
+     src:url('assets/fonts/')   url: ('assets/fonts/sf_fedora_shadow-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Adventure Regular';
+    src: url('assets/fonts/adventure-webfont.woff2') format('woff2'),
+         url('assets/fonts/adventure-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Anime Ace BB Regular';
+    src: url('assets/fonts/animeace2_reg-webfont.woff2') format('woff2'),
+          url('assets/fonts/animeace2_reg-webfont.woff')
+    font-weight: normal;
+    font-style: normal;
 }
 
 #Jolyne {
   color: #0e326f;
+
+#"Josuke(Youngling)" {
+  color: #9D2E61;
+}
+
 }
 body {
   background-image: url(./media/images/background.webp);
   background-repeat: no-repeat;
+  background-size: cover;
 }
-h1 {
-  font-family: ;
+h1,h2 {
+  font-family: 'SF Fedora';
+}
+h3 {
+  font-family: 'Adventure Regular';
+}
+p {
+  font-family: 'Anime Ace BB Regular';
 }
